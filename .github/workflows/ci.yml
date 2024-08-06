@@ -1,4 +1,4 @@
-name: ci 
+name: Deploy MKDocs site to GitHub Pages
 on:
   push:
     branches:
