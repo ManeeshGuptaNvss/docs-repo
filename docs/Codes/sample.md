@@ -1,4 +1,7 @@
-# Sample Codes
+---
+title: Some Sample Codes
+summary: A brief description of my document.
+---
 
 ``` py title="bubble_sort.py" linenums="1" hl_lines="3-5"
 def bubble_sort(items):
@@ -7,7 +10,8 @@ def bubble_sort(items):
             if items[j] > items[j + 1]:
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
-!!! Content tabs with code blocks
+
+## Content tabs with code blocks
 === "C"
 
     ``` c

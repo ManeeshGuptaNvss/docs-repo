@@ -1,9 +1,12 @@
 ---
-title: Second
+title: Second Post
 summary: A brief description of my document.
-date: 2024-08-06
 categories:
     - Second
+date:
+  created: 2024-01-31
+  updated: 2024-02-02
+readtime: 15
 tags:
   - intro
   - posts
