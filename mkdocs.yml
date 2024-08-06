@@ -2,6 +2,7 @@ site_name: Maneesh Gupta Nalluru
 theme:
   name: material
   features:
+    - navigation.footer
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
@@ -31,6 +32,9 @@ theme:
       primary: teal
       accent: lime
 markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -38,6 +42,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -45,5 +53,12 @@ plugins:
       tags_file: tags.md
   - blog
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/nvssmgupta/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ManeeshGuptaNvss
+
 copyright: |
-  &copy; 2023 <a href="https://github.com/ManeeshGuptaNvss"  target="_blank" rel="noopener">Maneesh Gupta</a>
+  &copy; 2024 <a href="https://github.com/ManeeshGuptaNvss"  target="_blank" rel="noopener">Maneesh Gupta</a>
