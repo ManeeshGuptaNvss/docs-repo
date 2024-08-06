@@ -14,7 +14,10 @@ hide:
 tags:
   - Leetcode
 ---
-``` cpp
+## Problem Statement
+
+## Solution
+``` cpp title="buy_sell_transaction_fee.cpp" linenums="1"
 #include <bits/stdc++.h>
 using namespace std;
 int maximumProfit(int n,int fee,vector<int>&values){
