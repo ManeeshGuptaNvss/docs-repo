@@ -60,6 +60,8 @@ plugins:
       tags_file: tags.md
   - blog
 
+extra_css:
+  - stylesheets/extra.css
 extra:
   generator: false
   social:
@@ -69,6 +71,5 @@ extra:
       link: https://github.com/ManeeshGuptaNvss
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/GuptaNvss
-
 copyright: |
   Copyrights &copy; 2024 are reserved for  <a href="https://github.com/ManeeshGuptaNvss"  target="_blank" rel="noopener">Maneesh Gupta Nalluru</a>

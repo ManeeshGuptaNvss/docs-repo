@@ -6,7 +6,7 @@ authors:
     - Nalluru Srinithya
 date: 2024-08-06
 # some_url: https://example.com
-
+icon: fontawesome/solid/house
 hide:
   - navigation
   - toc
@@ -17,7 +17,7 @@ tags:
 ---
 # Introduction
 
-Hi, my name is Maneesh Gupta Nalluru. I am currently working as a backend developer at Zee5. 
+Hi, my name is Maneesh Gupta Nalluru. I am currently working as a backend developer at Zee5. :octicons-heart-fill-24:{ .heart }
 
 ## Education
 
