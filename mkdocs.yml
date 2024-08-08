@@ -1,5 +1,8 @@
 site_name: Maneesh Gupta Nalluru
 theme:
+  icon:
+    logo: material/emoticon-happy-outline
+  favicon: images/favicon.png
   name: material
   features:
     - navigation.footer
@@ -9,9 +12,9 @@ theme:
     - navigation.tracking
     - navigation.instant
     - navigation.sections
-    - navigation.path
     - navigation.indexes
     - navigation.top
+    - navigation.path
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -21,18 +24,22 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
-      primary: teal
+      primary: deep orange
       accent: purple
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
-      primary: teal
+      primary: deep orange
       accent: lime
 markdown_extensions:
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
