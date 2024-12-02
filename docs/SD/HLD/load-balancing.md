@@ -7,15 +7,12 @@ authors:
 date: 2024-12-02
 # some_url: https://example.com
 icon: fontawesome/solid/house
-hide:
-  - navigation
-  - toc
 
 tags:
   - hld
   - loadbalancing
 ---
-
+```mermaid
 mindmap
   root((LBA))
     Static
@@ -26,4 +23,4 @@ mindmap
       Least Connection
       Weighted Least Connection
       Least Response Time
-    
+``` 

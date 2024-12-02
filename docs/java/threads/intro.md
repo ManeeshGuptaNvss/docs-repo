@@ -1,8 +1,8 @@
 # Threads Basics
 
 A thread can be created using 2 methods
- - extending thread class
- - implementing runnable interface
+- extending thread class
+- implementing runnable interface
 
 Runnable interface is a functional interface.
 ```mermaid
