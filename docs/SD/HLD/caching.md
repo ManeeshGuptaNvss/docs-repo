@@ -1,4 +1,3 @@
-
 ---
 title: Caching Strategy
 summary: Caching strategy in HLD
@@ -7,7 +6,7 @@ authors:
     - Nalluru Srinithya
 date: 2024-12-02
 # some_url: https://example.com
-icon: fontawesome/solid/house
+icon: fontawesome/solid/check
 hide:
   - navigation
   - toc
