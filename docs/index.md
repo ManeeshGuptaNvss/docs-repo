@@ -17,7 +17,7 @@ tags:
 ---
 # Introduction
 
-Hi, my name is Maneesh Gupta Nalluru. I am currently working as a backend developer at Zee5. :octicons-heart-fill-24:{ .heart }
+Hi, my name is Maneesh Gupta Nalluru. I am currently working as a backend developer at ShipRocket Omuni. :octicons-heart-fill-24:{ .heart }
 
 ## Education
 
