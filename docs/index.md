@@ -5,36 +5,78 @@ authors:
     - Maneesh Gupta
     - Nalluru Srinithya
 date: 2024-08-06
-# some_url: https://example.com
-icon: fontawesome/solid/house
+icon: fontawesome/solid/house-chimney-window
 hide:
   - navigation
   - toc
 
 tags:
   - intro
-  - basic
 ---
-# Introduction
 
-Hi, my name is Maneesh Gupta Nalluru. I am currently working as a backend developer at ShipRocket Omuni. :octicons-heart-fill-24:{ .heart }
+# Maneesh Gupta NVSS
+
+## Introduction
+
+Hi, my name is Maneesh Gupta Nalluru. I am currently working as SDE1 - backend developer at ShipRocket Omuni. :octicons-heart-fill-24:{ .heart }
 
 ## Education
 
+<div class="grid cards" markdown>
 
-| Degree           | Institute                                               | Marks | Year       |
-|:----------------:|:-------------------------------------------------------:|:-----:|:----------:|
-| M. Tech CSE      | International Institute of Information Technology, Hyderabad | 8.4   | 2021 - 23  |
-| B. Tech CSE      | Sri Venkateswara University College of Engineering      | 8.3   | 2017 - 21  |
-| Senior Secondary | Ratnam Junior College                                   | 97.9  | 2015 - 17  |
-| Secondary        | Ratnam High School                                      | 10    | 2014 - 15  |
+-   :material-book-education:{ .lg .middle } __M.Tech__ from __IIIT Hyderabad__
 
-## Skills
-![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+    ---
+
+     *Marks: 8.4/10*
+
+     *Year of Passing:2023*
+
+     *Course: CSE*
+
+-   :material-book-education:{ .lg .middle } __B.Tech__ from __Sri Venkateswara University__
+
+    ---
+
+     *Marks: 8.3/10*
+
+     *Year of Passing:2021*
+
+     *Course: CSE*
+
+-   :material-book-education:{ .lg .middle } __Senior Secondary__ from __Ratnam Junior College__
+
+    ---
+
+     *Marks: 979 / 1000*
+
+     *Year of Passing : 2017*
+
+     *Course: MPC*
+
+-   :material-book-education:{ .lg .middle } __Secondary__ from __Ratnam High School__
+
+    ---
+
+     *Marks: 10/10*
+
+     *Year of Passing:2015*
+
+</div>
+
+
+## Skills  
+
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,kubernetes,docker,c,cpp,python,mongodb,postgres,mysql,kafka,redis,html,css,javascript" />
+  </a>
+</p>
+
+## Tools
+
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,idea,postman,vscode,sublime,bitbucket" />
+  </a>
+</p>

@@ -1,10 +1,9 @@
 ---
-title: Tree Basics
+title: Trees
 summary: A brief description of my document.
 authors:
     - Maneesh Gupta
 date: 2024-08-08
-# some_url: https://example.com
 
 # hide:
 #   - navigation
@@ -17,6 +16,11 @@ tags:
 
 ## Types of Trees
 - Trees
+- n-ary Trees
+- Segment Trees
+- Fenwick Trees
 - Binary Trees
 - Binary Search Trees
 - Balanced Binary Search Trees
+- Red - Black Trees
+

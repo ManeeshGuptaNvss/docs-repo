@@ -1,3 +1,8 @@
+---
+title: Java 
+icon: fontawesome/brands/java
+---
+
 ``` mermaid
 mindmap
   root)Java Data Types(
@@ -24,8 +29,8 @@ mindmap
       Arrays
 ```
 
-## Classes
-
+### Classes
+---
 1. Concrete Class
 2. Abstract Class
 3. Super class and sub class

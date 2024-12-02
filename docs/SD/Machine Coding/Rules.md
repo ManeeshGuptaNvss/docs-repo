@@ -1,3 +1,7 @@
+---
+title: Rules
+icon: fontawesome/solid/info
+---
 [Taken From / Reference](https://medium.com/@manav.jain.tube/7-common-mistakes-to-avoid-in-machine-coding-rounds-f8e09461b739)
 
 A keen sense of design, focusing on extensibility, performance, and scalability. 

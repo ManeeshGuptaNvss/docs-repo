@@ -1,5 +1,8 @@
-
-```java title="Board.java"
+---
+title: Snake & Ladders
+icon: material/snake
+---
+```java title="Board.java" linenums="1"
 package SnakeAndLadder;
 
 import java.util.HashMap;
@@ -55,7 +58,7 @@ public class Board {
 
 ```
 
-```java
+```java title="Game.java" linenums="1"
 package SnakeAndLadder;
 
 import java.util.ArrayList;
@@ -109,7 +112,7 @@ public class Game {
 
 ```
 
-```java
+```java title="Main.java" linenums="1"
 package SnakeAndLadder;
 
 public class Main {
@@ -137,7 +140,7 @@ public class Main {
 
 ```
 
-```java
+```java title="Player.java" linenums="1"
 package SnakeAndLadder;
 
 public class Player {

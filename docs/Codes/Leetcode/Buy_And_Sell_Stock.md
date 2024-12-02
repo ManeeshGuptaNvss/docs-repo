@@ -1,5 +1,5 @@
 ---
-title: Buy and Sell Stocks With Transaction Fee - Leetcode 714
+title: LC714 - Buy and Sell Stocks With Transaction Fee
 summary: A brief description of my document.
 authors:
     - Maneesh Gupta
@@ -38,3 +38,12 @@ int maximumProfit(int n,int fee,vector<int>&values){
     return aheadBuy;
 }
 ```
+
+  > :memo: **This the title**
+  >
+  > - list under lists
+  > - under lists
+
+  foo | bar
+  ----|----
+  some|data

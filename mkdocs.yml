@@ -4,6 +4,9 @@ theme:
     logo: material/emoticon-happy-outline
   favicon: images/favicon.png
   name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
   features:
     - navigation.footer
     - navigation.tabs
@@ -22,18 +25,21 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-      primary: deep orange
-      accent: purple
+    # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
-      primary: deep orange
-      accent: lime
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
@@ -50,6 +56,10 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -71,5 +81,7 @@ extra:
       link: https://github.com/ManeeshGuptaNvss
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/GuptaNvss
+    - icon: fontawesome/brands/mastodon
+      name: Maneesh Gupta NVSS
 copyright: |
   Copyrights &copy; 2024 are reserved for  <a href="https://github.com/ManeeshGuptaNvss"  target="_blank" rel="noopener">Maneesh Gupta Nalluru</a>
