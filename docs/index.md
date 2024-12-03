@@ -69,7 +69,7 @@ Hi, my name is Maneesh Gupta Nalluru. I am currently working as SDE1 - backend d
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,kubernetes,docker,c,cpp,python,mongodb,postgres,mysql,kafka,redis,html,css,javascript" />
+    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,c,cpp,python,mongodb,postgres,mysql,kafka,redis,html,css,javascript&perline=5" />
   </a>
 </p>
 
@@ -77,6 +77,6 @@ Hi, my name is Maneesh Gupta Nalluru. I am currently working as SDE1 - backend d
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,idea,postman,vscode,sublime,bitbucket" />
+    <img src="https://skillicons.dev/icons?i=git,idea,postman,vscode,sublime,bitbucket,kubernetes,docker&perline=5" />
   </a>
 </p>

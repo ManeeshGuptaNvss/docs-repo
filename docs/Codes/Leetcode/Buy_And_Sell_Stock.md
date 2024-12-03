@@ -5,7 +5,6 @@ authors:
     - Maneesh Gupta
     - Nalluru Srinithya
 date: 2024-08-06
-some_url: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/
 
 hide:
   - navigation
@@ -43,7 +42,3 @@ int maximumProfit(int n,int fee,vector<int>&values){
   >
   > - list under lists
   > - under lists
-
-  foo | bar
-  ----|----
-  some|data
