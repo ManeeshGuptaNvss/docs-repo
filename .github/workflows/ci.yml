@@ -1,23 +1,39 @@
-name: Deploy MKDocs site to GitHub Pages
+name: Deploy MkDocs site to GitHub Pages
+
 on:
   push:
     branches:
-      - master 
       - main
+      - master
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - uses: actions/cache@v2
+          python-version: "3.12"
+
+      - name: Cache MkDocs build
+        uses: actions/cache@v4
         with:
-          key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install pillow cairosvg
-      - run: mkdocs gh-deploy --force
+          key: mkdocs-${{ runner.os }}-${{ hashFiles('mkdocs.yml') }}
+          restore-keys: |
+            mkdocs-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs-material pillow cairosvg
+
+      - name: Deploy to GitHub Pages
+        run: python3 -m mkdocs gh-deploy --force

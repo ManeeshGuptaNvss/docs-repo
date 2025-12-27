@@ -18,7 +18,7 @@ tags:
 
 ## Introduction
 
-Hi, my name is Maneesh Gupta Nalluru. I am currently working as SDE1 - backend developer at ShipRocket Omuni. :octicons-heart-fill-24:{ .heart }
+Hi, my name is Maneesh Gupta Nalluru. I am currently working as Software Development Engineer (SDE) @Razorpay . :octicons-heart-fill-24:{ .heart }
 
 ## Education
 
