@@ -1,0 +1,4 @@
+{
+  "buildCommand": "pip install mkdocs-material pillow cairosvg && python3 -m mkdocs build",
+  "outputDirectory": "site"
+}
